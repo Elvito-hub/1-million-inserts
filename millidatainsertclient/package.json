@@ -1,0 +1,39 @@
+{
+  "name": "millidatainsertclient",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.6.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "faker": "^6.6.6",
+    "lucide-react": "^0.323.0",
+    "mocker-data-generator": "^3.0.3",
+    "next": "14.1.0",
+    "papaparse": "^5.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

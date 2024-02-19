@@ -1,0 +1,23 @@
+POST http://localhost:2030/postmillirequests
+
+{
+    "ProductId":"1",
+    "Product":"nkmwfk",
+    "Country":"kenya",
+    "Price":1313,
+    "RegisteredAt":"wwrvwv",
+    "Shop":"simabe",
+    "type":"wfjnwrf",
+    "Location":"rebero"
+}
+
+# {
+#     "productid":"1",
+#     "product":"nkmwfk",
+#     "country":"kenya",
+#     "price":1313,
+#     "registeredat":"wwrvwv",
+#     "shop":"simabe",
+#     "type":"wfjnwrf",
+#     "location":"rebero"
+# }
