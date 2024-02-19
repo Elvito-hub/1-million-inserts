@@ -12,33 +12,6 @@ const ROW_SIZE = 10000
 const DataGenerator = () => {
 
 
-//   export const collectPagginatedDataInBatches = async ({
-//     batchSize,
-//     count,
-//     requestFunction,
-//     requestParams = {},
-//     maxQtt,
-// }: {
-//     batchSize: number,
-//     count: number,
-//     requestFunction: (requestParams: GetAllRequestParamsType) => Promise<AxiosResponse<any, any>>
-//     requestParams?: GetAllRequestParamsType
-//     maxQtt?: number
-// }) => {
-
-//     const results: (AxiosResponse<any, any> | null | undefined)[] = [];
-//     for (let batchIteration = 1; batchIteration <= pagesQtt; batchIteration += batchSize) {
-//         const batch = Array.from({ length: batchSize }, (__, i) => i + batchIteration);
-//         // eslint-disable-next-line no-await-in-loop
-//         const batchResults = await Promise.all(batch
-//             .map((iteration) => {
-//                 if (iteration > pagesQtt) { return null; }
-//                 return requestFunction({ ...requestParams, page: iteration, count });
-//             }));
-//         results.push(...batchResults);
-//     }
-//     return results;
-// };
 
   const generateCSV = (headers: string[], values: CsvValue[]) => {
     // Create an array to hold the parsed data
